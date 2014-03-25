@@ -1,0 +1,195 @@
+
+<!--Divs -->
+#wrapper {
+	width: 1200px;  
+	margin: 0 auto; 
+	border-left: 1px solid red;
+	border-right: 1px solid #000;
+	background-color: red;
+	font-size: 100%;
+	}
+
+#banner {
+	border: 5px solid #395A88;
+	height: 80px;
+	border-radius: 15px;
+	width: 1200px;
+	}
+
+		#banner h1{
+		text-shadow: 5px 5px 6px dimgrey;
+		font-family: Georgia, "Times New Roman", Times, serif;
+		text-align:center;
+		font-size: 40px;
+		margin: 12px 120px 5px 15px;
+		}
+
+#nav {
+	width: 130px;
+	float: left; 	
+   	vertical-align: top;
+	text-align: center;
+	padding:5px;
+	//background-color:gray;	
+	}
+	
+		#nav ul{
+		margin: 3px 0 0 0;
+		padding: 1px;
+			//border-top: 1px solid #000;
+			//border-right: 1px solid #000;
+		}
+	
+		#nav li{
+		list-style-type: none;
+		margin: 0;
+		font-size: 80%;
+		padding: 2px;
+		
+		
+		}
+		
+		#nav li a, #nav li a:visited{
+  		padding-left:5px;
+		background-color: #ccc;
+		color: white;
+		text-decoration: none;
+		line-height: 20px;
+		display: block;
+		border-bottom: 1px solid #000;
+		border-radius: 100px; 
+		}
+
+		#nav li a:hover{
+		background-color: #395A88;
+		color: #fff;
+		}
+
+#content{
+	margin-left: 140px;
+	margin-right:0px;
+	height: 550px;
+	width:1060px;
+  	padding:5;
+	text-align:left;
+		//background-color:#EEBC5F;
+		//background-color:gray;
+	}
+		#content p{
+		margin: 5px 15px 5px 15px;
+		font-size: 100%;
+		}
+		
+		#content table{
+		alignment-adjust:central;
+			//width:80%;
+		text-align:left;
+		//background-color:#EEBC5F;
+		background-color:#F4F4F4;
+		margin:5px 15px 5px 15px;
+		}
+		
+		//#content tabe tr{
+		//text-align:center;
+		//}		
+		
+		#content table th{
+		height:50px;
+    	text-align:center;
+		}
+		
+		
+#content_left{
+	border-right: 2px solid #395A88;
+	//border-bottom:2px solid #395A88;
+	width: 520px;
+	height:500px;
+	float: left;
+	vertical-align: top;
+	border-radius: 15px;
+	margin:0px 0px 0px 0px;
+		//background-color:#EEBC5F;
+		//border: 2px solid #395A88;
+		//background-color: gray;
+	}
+		#inside_left_div{
+			border-top: 1px solid #395A88;
+			align-self:left;
+			border-radius: 15px;
+			margin:0px 0px 0px 0px;
+			margin: 50px 5px 5px 5px;
+			//border: 1px solid #395A88;
+			//background-color: gray;
+			}
+	
+	
+#content_right{
+	border-left: 2px solid #395A88;
+	//border-bottom:2px solid #395A88;
+	//border: 2px solid #395A88;
+	width:520px;
+	float:right;
+	height:500px;
+	vertical-align:top;
+	//background-color: #EEBC5F;
+		//background-color: green;
+	border-radius: 15px;
+	margin: 0px 0px 0px 0px;
+	}
+	
+#story1, #story2, #story3{
+	height:140px;
+	border: 1px solid #395A88;
+	margin: 5px 5px 5px 5px;
+	border-radius: 5px;
+	background-color:white;
+	}
+
+#footer{
+	clear: both;
+	text-align: left;
+	background-color: #395A88;
+	border-top: 2px solid #000;
+	padding: 10px;
+	}
+
+		#footer p{
+		font-size: 65%;
+		color: #fff;
+		margin: 0;
+		}
+<!----------------------------- End of Divs ----------------------------->
+
+
+<!------------------------------- body CSSs ------------------------------->	
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: blue;
+	text-align: center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #666;
+	font-size: 100%;
+}
+
+body h3{
+		text-shadow: 5px 5px 6px dimgrey;
+		font-family: Georgia, "Times New Roman", Times, serif;
+		text-align:center;
+		font-size: 20px;
+		margin: 20	px 120px 20px 15px;	
+		color: #395A88;
+		
+			
+		}
+	
+
+<!------------------------ Modifiers ----------------------------------->
+
+.center
+{
+    margin-left:auto;
+    margin-right:auto;
+    width:70%;
+    background-color:#b0e0e6;
+}

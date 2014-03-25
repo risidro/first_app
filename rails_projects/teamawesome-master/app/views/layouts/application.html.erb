@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+    <title>SentenceZing | <%= yield(:title)  %></title>
+    <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    <%= csrf_meta_tags %>
+    <link rel="shortcut icon" type="favicon.ico" href="/assets/favicon.ico"/>
+    <link rel="shortcut icon" type="favicon.ico" href="https://sentencezing.herokuapp.com//favicon.ico"/>
+  </head>
+  <body>
+	<%= render 'layouts/header' %>
+    <center ><img src="/assets/sentencezing.png" alt="SentenceZing Logo" height="80" width="900">
+    <div class="container">
+      <%= yield %>
+      <%= render 'layouts/footer' %>
+    </div>    
+    </center>
+  </body>
+</html>

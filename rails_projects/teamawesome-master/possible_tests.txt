@@ -1,0 +1,27 @@
+Team Awesome testing ideas: Developers Brian Highnam, Roberto Isidro, Michael Watkinson
+
+-- Modeling tests --------
+
+Test user inputs for user profile( e.g. email , password )
+
+Make sure that the all of the fields are filled. If not, display error message "Please fill in all of the fields and try again".
+
+Make sure that updates are insertion of new records is actually being done within the database. Reason why is because it may bring up unnecessary null values or create more errors.
+
+Make sure that the database is able to take in stories with symbols( e.g. apostrophes , etc. ). Reason, some DBMSs need to have a special function to make it possible to put in symbols.
+
+Make sure that email is in correct format (has @)
+
+Make sure that SQL injection is prevented (does not allow symbols such as ;()'")
+
+-- Design tests -----
+
+Make sure that none of the links are "broken". Go through every link on the page and make sure it goes to the correct page.
+
+Does the UI  meet the target audience.
+
+Make sure the images and dynamic banner are displayed correctly (checked on multiple browsers).
+
+Are tables filled with data read from the database correctly?
+
+

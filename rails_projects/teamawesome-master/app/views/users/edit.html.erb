@@ -1,0 +1,28 @@
+<% provide(:title, "Profile") %>
+<h1>Profile</h1>
+
+<div class="row">
+  <div class="span6 offset3">
+    <%= form_for(@user) do |f| %>
+      <%= render 'shared/error_messages', object: f.object %>
+
+      <%= f.label :name, "Username" %>
+      <%= f.text_field :name %>
+
+      <%= f.label :aboutme, "User Bio" %>
+      <%= f.text_area :aboutme, placeholder: "About Me" %>
+
+      <%= f.label :email %>
+      <%= f.text_field :email %>
+
+      <%= f.label :password %>
+      <%= f.password_field :password %>
+
+      <%= f.label :password_confirmation, "Confirm Password" %>
+      <%= f.password_field :password_confirmation %>
+      <br>
+      <%= f.submit "Update Profile", class: "btn btn-large btn-primary" %>
+    <% end %>
+
+  </div>
+</div>
